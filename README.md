@@ -1,5 +1,7 @@
 # Serra idroponica
-Crea una serra idroponica stampata in 3D con Arduino/ESP32!
+Crea una serra idroponica stampata in 3D con Arduino/ESP32!  
+
+<img src="https://github.com/BadCactus634/hydroponic-tower/assets/68558172/b1987811-1263-4c2e-ad06-7a666f1c531b" width="600">
 
 ## Overview
 Questa serra idroponica modulare è stata interamente stampata in 3D utilizzando del [PLA della PolyTerra](https://amzn.eu/d/4JCfyR1). Per stampare i pezzi marroni ho utilizzato poco meno di 1kg di filamento, mentre per quelli verdi circa 400g.  
@@ -8,7 +10,7 @@ Se non l'hai ancora fatto, clicca qui (WIP!) per vedere il video che ho fatto do
 
 Questi sono alcuni dei componenti stampati:  
 
-![Componenti](https://github.com/BadCactus634/hydroponic-tower/assets/68558172/6685b945-aa3b-4e42-a553-f0862979546f)
+<img src="https://github.com/BadCactus634/hydroponic-tower/assets/68558172/6685b945-aa3b-4e42-a553-f0862979546f" width="600">
 
 Lista della spesa:
 - 1kg filamento marrone
@@ -34,7 +36,7 @@ Il cuore di questo progetto è un semplicissimo **ESP32** che fa da timer che ac
 Ci sono due LED che indicano lo stato del sistema (verde acceso = pompa attiva; rosso lampeggiante = mancanza di acqua nel serbatoio).
 L'ESP32 attiva un relè tramite un transistor, e il relè a sua volta attiva uno step-up che converte i 5V dell'alimentazione a 12V per la pompa dell'acqua, accendendola. Lo step-up è stato collegato a valle del relè in modo da essere attivato solo quando la pompa deve essere alimentata, risparmiando qualche mA del circuito di conversione e allungando quindi la durata della batteria (anche se io lo alimento tramite un alimentatore a muro).  
 
-[inserire foto circuito montato/scatola]
+<img src="https://github.com/BadCactus634/hydroponic-tower/assets/68558172/ad248261-0450-4d58-aa0b-4c03accaca73" width="300">
 
 Questo è lo schema del circuito:  
 

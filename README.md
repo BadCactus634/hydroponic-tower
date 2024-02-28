@@ -10,7 +10,7 @@ Se non l'hai ancora fatto, clicca qui (WIP!) per vedere il video che ho fatto do
 
 Questi sono alcuni dei componenti stampati:  
 
-<img src="https://github.com/BadCactus634/hydroponic-tower/assets/68558172/6685b945-aa3b-4e42-a553-f0862979546f" width="600">
+<img src="https://github.com/BadCactus634/hydroponic-tower/assets/68558172/6685b945-aa3b-4e42-a553-f0862979546f" width="600"> <br>
 
 Lista della spesa:
 - 1kg filamento marrone

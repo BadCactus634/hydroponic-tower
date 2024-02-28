@@ -23,10 +23,11 @@ Lista della spesa:
 - nutrimento per coltivazioni idroponiche
 - piantine da mettere nella serra
 - step-up 5V-12V
-- potenziometro, cavi, LED, 
+- potenziometro, cavi, LED
+ 
 Opzionale:
 - millefori, stagno, stagnatore
-- sensori per pH, CE e temperatura dell'acqua (opzionali, io non li ho usati)
+- sensori per pH, CE e temperatura dell'acqua (io non li ho usati)
 
 ## Modelli 3D
 I modelli che ho utilizzato io e che vedi nel mio video li trovi tutti nella cartella **File STL utilizzati**, inclusa la scatoletta che contiene i componenti.  

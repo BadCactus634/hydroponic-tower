@@ -21,9 +21,12 @@ Lista della spesa:
 - sensore di livello dell'acqua
 - un vaso (se non è presente nei modelli già fatti, devi crearti un modello del coperchio su misura)
 - nutrimento per coltivazioni idroponiche
-- sensori per pH, CE e temperatura dell'acqua (opzionali, io non li ho usati)
 - piantine da mettere nella serra
-- potenziometro, cavi, LED, millefori, stagno, stagnatore
+- step-up 5V-12V
+- potenziometro, cavi, LED, 
+Opzionale:
+- millefori, stagno, stagnatore
+- sensori per pH, CE e temperatura dell'acqua (opzionali, io non li ho usati)
 
 ## Modelli 3D
 I modelli che ho utilizzato io e che vedi nel mio video li trovi tutti nella cartella **File STL utilizzati**, inclusa la scatoletta che contiene i componenti.  

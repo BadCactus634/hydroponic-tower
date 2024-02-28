@@ -45,3 +45,6 @@ Il codice è nel file **Codice_SerraIdroponica.ino** e questo è il suo funziona
 - C'è acqua nel serbatoio?  
   Allora se è passato il tempo di attesa (regolabile tramite potenziometro da 10min a 60min) attiva la pompa per 5min.
   Durante il tempo di attivazione della pompa (che funziona tramite millis) verifica ogni secondo se è ancora presente acqua nel serbatoio, altrimenti fermala.
+  
+**ATTENZIONE**  
+I pin nel codice e lo schema del circuito si riferiscono a ESP32. Se volete utilizzare un Arduino dovete modificare i pin nel codice e nel circuito.

@@ -33,8 +33,9 @@ Nel caso ti servissero puoi scaricare lo zip contenente i modelli originali clic
 
 ## Circuito
 Il cuore di questo progetto è un semplicissimo **ESP32** che fa da timer che accende la pompa dell'acqua per 5 minuti e poi attende un tempo variabile (regolabile dal potenziometro) che può andare da 10 a 60 minuti.  
-Ci sono due LED che indicano lo stato del sistema (verde acceso = pompa attiva; rosso lampeggiante = mancanza di acqua nel serbatoio).
-L'ESP32 attiva un relè tramite un transistor, e il relè a sua volta attiva uno step-up che converte i 5V dell'alimentazione a 12V per la pompa dell'acqua, accendendola. Lo step-up è stato collegato a valle del relè in modo da essere attivato solo quando la pompa deve essere alimentata, risparmiando qualche mA del circuito di conversione e allungando quindi la durata della batteria (anche se io lo alimento tramite un alimentatore a muro).  
+Ci sono due LED che indicano lo stato del sistema (verde acceso = pompa attiva; rosso lampeggiante = mancanza di acqua nel serbatoio).  
+L'ESP32 attiva un relè tramite un transistor, e il relè a sua volta attiva uno step-up che converte i 5V dell'alimentazione a 12V per la pompa dell'acqua, accendendola.  
+Lo step-up è stato collegato a valle del relè in modo da essere attivato solo quando la pompa deve essere alimentata, risparmiando qualche mA del circuito di conversione e allungando quindi la durata della batteria (anche se io lo alimento tramite un alimentatore a muro).  
 
 <img src="https://github.com/BadCactus634/hydroponic-tower/assets/68558172/ad248261-0450-4d58-aa0b-4c03accaca73" width="300">
 

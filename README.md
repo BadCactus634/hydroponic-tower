@@ -1,3 +1,5 @@
+ENGLISH USERS [READ HERE](english.md)!
+
 # Serra idroponica
 Crea una serra idroponica stampata in 3D con Arduino/ESP32!  
 

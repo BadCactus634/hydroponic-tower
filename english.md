@@ -45,7 +45,7 @@ The step-up is connected after the relè, so it's only activated when the pump n
 
 You can see the circuit diagram in the picture below.  
 
-ATTENTION!! It's important to connect the potentiometer to pin 33 (which corresponds to ADC1) because if we were to connect it to any ADC2 pin, the integration with Arduino Cloud won't work, as the ADC2 doesn't work if the board is using WiFi.
+***ATTENTION!! It's important to connect the potentiometer to pin 33 (which corresponds to ADC1) because if we were to connect it to any ADC2 pin, the integration with Arduino Cloud won't work, as the ADC2 doesn't work if the board is using WiFi.***
 
 ![Circuito_schema](https://github.com/BadCactus634/hydroponic-tower/assets/68558172/04654709-114e-4044-ba4f-5cec02618bce)
 

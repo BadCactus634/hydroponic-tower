@@ -43,10 +43,12 @@ Ci sono due LED che indicano lo stato del sistema (verde acceso = pompa attiva; 
 L'ESP32 attiva un relè tramite un transistor, e il relè a sua volta attiva uno step-up che converte i 5V dell'alimentazione a 12V per la pompa dell'acqua, accendendola.  
 Lo step-up è stato collegato a valle del relè in modo da essere attivato solo quando la pompa deve essere alimentata, risparmiando qualche mA del circuito di conversione e allungando quindi la durata della batteria (anche se io lo alimento tramite un alimentatore a muro).  
 
-<img src="https://github.com/BadCactus634/hydroponic-tower/assets/68558172/ad248261-0450-4d58-aa0b-4c03accaca73" width="300">
+<img src="https://github.com/BadCactus634/hydroponic-tower/assets/68558172/ad248261-0450-4d58-aa0b-4c03accaca73" width="300">  
 
-Questo è lo schema del circuito:  
-ATTENZIONE!! È importante collegare il potenziometro al pin 33 (che corrisponde all'ADC1) perchè se lo colleghiamo a uno dei pin dell'ADC2 non funzionerà l'integrazione con Arduino Cloud, visto che l'ADC2 non funziona se la scheda utilizza il WiFi.
+Nella figura sotto è riportato lo schema del circuito.
+
+***ATTENZIONE!! È importante collegare il potenziometro al pin 33 (che corrisponde all'ADC1) perchè se lo colleghiamo a uno dei pin dell'ADC2 non funzionerà l'integrazione con Arduino Cloud, visto che l'ADC2 non funziona se la scheda utilizza il WiFi.***  
+
 
 ![Circuito_schema](https://github.com/BadCactus634/hydroponic-tower/assets/68558172/04654709-114e-4044-ba4f-5cec02618bce)
 

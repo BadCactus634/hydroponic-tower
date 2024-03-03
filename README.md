@@ -46,6 +46,7 @@ Lo step-up è stato collegato a valle del relè in modo da essere attivato solo 
 <img src="https://github.com/BadCactus634/hydroponic-tower/assets/68558172/ad248261-0450-4d58-aa0b-4c03accaca73" width="300">
 
 Questo è lo schema del circuito:  
+ATTENZIONE!! È importante collegare il potenziometro al pin 33 (che corrisponde all'ADC1) perchè se lo colleghiamo a uno dei pin dell'ADC2 non funzionerà l'integrazione con Arduino Cloud, visto che l'ADC2 non funziona se la scheda utilizza il WiFi.
 
 ![Circuito_schema](https://github.com/BadCactus634/hydroponic-tower/assets/68558172/04654709-114e-4044-ba4f-5cec02618bce)
 

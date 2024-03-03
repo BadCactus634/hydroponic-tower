@@ -47,7 +47,7 @@ Lo step-up è stato collegato a valle del relè in modo da essere attivato solo 
 
 Questo è lo schema del circuito:  
 
-![Circuito_schem](https://github.com/BadCactus634/hydroponic-tower/assets/68558172/36fbfe34-5de7-4bf4-98cb-40de06bd7c8f)
+![Circuito_schema](https://github.com/BadCactus634/hydroponic-tower/assets/68558172/04654709-114e-4044-ba4f-5cec02618bce)
 
 ## Codice
 Il codice è nel file **Codice_SerraIdroponica.ino** e questo è il suo funzionamento di base:  

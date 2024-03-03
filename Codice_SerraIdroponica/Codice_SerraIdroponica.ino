@@ -11,7 +11,7 @@ int sensore = 32; // Sensore
 int pompa = 27; // Pompa
 int ledV = 12; // LED verde
 int ledR = 13; // LED rosso
-int potenziometro = 25, pausa = 0, nuovaPausa = 0;
+int potenziometro = 33, pausa = 0, nuovaPausa = 0;
 
 unsigned long vecchioMillis = 0;
 unsigned long nuovoMillis = 0;

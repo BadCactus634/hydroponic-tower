@@ -57,6 +57,13 @@ Il codice è nel file **Codice_SerraIdroponica.ino** e questo è il suo funziona
 - C'è acqua nel serbatoio?  
   Allora se è passato il tempo di attesa (regolabile tramite potenziometro da 10min a 60min) attiva la pompa per 5min.
   Durante il tempo di attivazione della pompa (che funziona tramite millis) verifica ogni secondo se è ancora presente acqua nel serbatoio, altrimenti fermala.
+
+## Integrazione con Arduino Cloud 
+Se volete fare l'integrazione su Arduino Cloud dovete usare il codice nella cartella **Codice_ArduinoCloud** perché ci sono alcune modifiche rispetto al codice normale.
+Inoltre, sempre su Arduino Cloud, vanno impostate le seguenti variabili:  
+
+<img src="https://github.com/BadCactus634/hydroponic-tower/assets/68558172/5a596792-9bb3-4a95-b733-6f6aa69e6665" width="500">   
+ 
   
 **ATTENZIONE**  
-I pin nel codice e lo schema del circuito si riferiscono a ESP32. Se volete utilizzare un Arduino dovete modificare i pin nel codice e nel circuito.
+I pin in entrambe le versioni del codice e lo schema del circuito si riferiscono alla scheda ESP32. Se volete utilizzare un Arduino dovete modificare i pin nel codice e nel circuito.

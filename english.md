@@ -54,6 +54,12 @@ The code is in the file **Codice_SerraIdroponica.ino** and this is it's base wor
 - Is there any water in the vase?  
   Then if the wait time has expired, activates the pump for 5min.  
   During pump activation time (it works by using millis) verify every second if water is still present in the vase, if not, stop the pump and turn on the red LED.
+
+## Arduino Cloud integration 
+If you want to integrate Arduino Cloud, you need to use the code in the directory **Codice_ArduinoCloud** because the code needs to be modified a bit.  
+You also need to setup those variables in Arduino Cloud:  
+
+<img src="https://github.com/BadCactus634/hydroponic-tower/assets/68558172/5a596792-9bb3-4a95-b733-6f6aa69e6665" width="500">   
   
 **ATTENTION**  
 The pins in the code and in the circuit diagram refers to the ESP32 board. If you want to use an Arduino you need to edit them in the code and thus in the circuit.

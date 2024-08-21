@@ -40,6 +40,8 @@ Non c'è il file del coperchio del vaso perché l'ho costruito in legno, visto c
 Nel caso ti servissero puoi scaricare lo zip contenente i modelli originali cliccando [qui](https://t.me/makersITA/907372) (non ci sono più su Thingiverse).
 
 ## Circuito
+ATTENZIONE!! IL CIRCUITO NON E' STABILE: Il convertitore DC-DC va messo PRIMA del relè, altrimenti l'ESP si riavvierà quando scatta il relè. Credo sia a causa di un momentario undervoltage. 
+
 Il cuore di questo progetto è un semplicissimo **ESP32** che fa da timer che accende la pompa dell'acqua per 5 minuti e poi attende un tempo variabile (regolabile dal potenziometro) che può andare da 10 a 60 minuti.  
 Ci sono due LED che indicano lo stato del sistema (verde acceso = pompa attiva; rosso lampeggiante = mancanza di acqua nel serbatoio).  
 L'ESP32 attiva un relè tramite un transistor, e il relè a sua volta attiva uno step-up che converte i 5V dell'alimentazione a 12V per la pompa dell'acqua, accendendola.  

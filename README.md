@@ -1,5 +1,7 @@
 ENGLISH USERS [READ HERE](english.md)!
 
+ATTENZIONE!! IL CIRCUITO NON E' STABILE: Il convertitore DC-DC va messo PRIMA del relè, altrimenti l'ESP si riavvierà quando scatta il relè. Credo sia a causa di un momentario undervoltage.
+
 # Serra idroponica
 Crea una serra idroponica stampata in 3D con Arduino/ESP32!  
 

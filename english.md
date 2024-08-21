@@ -1,3 +1,5 @@
+WARNING!! THIS CIRCUIT IS NOT STABLE: The DC-DC converter needs to be put BEFORE the relay, otherwise an undervoltage would occur, resetting the ESP.
+
 # Hydroponic tower
 Create a 3D-printed hydroponic tower with Arduino/ESP32!  
 
@@ -36,6 +38,8 @@ I haven't included the custom-made file for my vase cover because I builded it u
 If you need the original models, you can find them [here](https://t.me/makersITA/907372) (they aren't on Thingiverse anymore).
 
 ## Circuit
+WARNING!! THIS CIRCUIT IS NOT STABLE: The DC-DC converter needs to be put BEFORE the relay, otherwise an undervoltage would occur, resetting the ESP. 
+
 The heart of this project is a simple **ESP32** used as a timer, that turns on the water pump for 5 minutes and then waits a variable time that we can specify using the potentiometer (from 10 to 60 minutes).    
 There are 2 LEDs that indicate the status of the system (green on = pump active; red blinking = no water).  
 The ESP32 is connected to a relè via a transistor, the relè triggers a step-up that converts the 5V from the USB cable up to 12V for the water pump, thus turning it on.  

@@ -1,4 +1,4 @@
-WARNING!! THIS CIRCUIT IS NOT STABLE: The DC-DC converter needs to be put BEFORE the relay, otherwise an undervoltage would occur, resetting the ESP.
+WARNING!! THIS CIRCUIT IS NOT STABLE: The DC-DC converter needs to be put BEFORE the relay, otherwise an undervoltage would occur, resetting the ESP. There is a need for a capacitor.
 
 # Hydroponic tower
 Create a 3D-printed hydroponic tower with Arduino/ESP32!  
